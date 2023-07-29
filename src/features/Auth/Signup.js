@@ -13,6 +13,7 @@ const Signup = () => {
   }
 
   return (
+    <div>
     <form className="signup" onSubmit={handleSubmit}>
       <h3>Sign Up</h3>
       
@@ -31,7 +32,9 @@ const Signup = () => {
 
       <button disabled={isLoading}>Sign up</button>
       {error && <div className="error">{error}</div>}
+    
     </form>
+    </div>
   )
 }
 

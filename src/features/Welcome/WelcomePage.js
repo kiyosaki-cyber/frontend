@@ -6,8 +6,10 @@ import Navbar from './Navbar'
       <div>
         <Navbar/>
       </div>
-      <p>Welcome to the app to help you manage your finances in an efficient way</p>
+      <div className='welcome-page'>
+      </div>
     </div>
+
   )
 }
 export default WelcomePage

@@ -34,7 +34,7 @@ const { user } = useAuthContext()
     <div>
         <Navbar />
     </div >
-    <div className='view'>
+    <div>
       {budgetList && budgetList.map((budgetList) => (
       <BudgetDetails key={budgetList._id} budgetList={budgetList} />
       ))}

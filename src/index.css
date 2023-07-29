@@ -1,36 +1,26 @@
 body {
- /*  background: #f1f1f1; */
- background-color: wheat;
+ 
+ background-color: whitesmoke;
   margin: 0;
   font-family: "Poppins";
 }
-.budgetDetails{
-  background: #fff;
-  border-radius: 4px;
-  margin: 20px auto;
-  padding: 20px;
-  position: relative;
-  box-shadow: 2px 2px 5px rgba(0,0,0,0.05);
-}
-label, input {
-  display: block;
-}
-
 a {
-  color: #333;
+  color: #53015e;
   text-decoration: none;
 }
-
 .budgetDetails{
-    background: whitesmoke;
+    background: white;
     border-radius: 4px;
     margin: 20px auto;
-    border: 2px black solid;
+    border: none;
     padding: 20px;
     position: relative;
-    color: rgb(1, 149, 1);
+    color: #019501;
     box-shadow: 2px 2px 5px rgba(0,0,0,0.05);
   }
+span{
+    color: black;
+  } 
   .container {
     background: #fff;
     max-width: 1400px;
@@ -40,21 +30,56 @@ a {
     align-items: center;
     justify-content: space-between;
   }
+  .form{
+    display: block;
+  }
+ 
+  .label-input{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    gap: 10px;
+  }
+  label {
+    font-weight: 600;
+    color: #026e02;
+    font-size: 1.125rem;
+    font-family: 'Times New Roman', Times, serif;
+  }
   input {
     padding: 10px;
     margin-top: 10px;
-    margin-bottom: 20px;
-    width: 100%;
+    margin-bottom: 10px;
+    width: 100%;   
     border: 1px solid #ddd;
     border-radius: 4px;
     box-sizing: border-box;
   }
-  form button {
-    background:  #1aac83;
+
+  .logout{
+    background:rgb(9, 93, 9) ;
     border: 0;
     color: #fff;
     padding: 10px;
+    margin-left: 10px;
     font-family: "Poppins";
     border-radius: 4px;
     cursor: pointer;
   }
+  form button {
+    background:rgb(0, 112, 0) ;
+    border: 0;
+    color: #fff;
+    padding: 10px;
+    margin-left: 10px;
+    font-family: "Poppins";
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .welcome-page{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPzj78YWwQRtenlQUpmPDqWnYhU2Ky4tjlhw&usqp=CAU);
+    height: 100vh;
+    background-repeat: repeat;
+   /*  background-size: contain; */
+  }
+  
